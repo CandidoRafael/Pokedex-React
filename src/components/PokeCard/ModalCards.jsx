@@ -13,7 +13,7 @@ export const ModalCards = () => {
     const [pokemon, setPokemon] = useState(null)
 
     useEffect(() => {
-     axios.get(`http://pokeapi.co/api/v2/pokemon/${id}`)
+     axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`)
      .then(resp => resp.data)
      .then(data => setPokemon(data))
     }, [id])
