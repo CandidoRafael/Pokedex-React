@@ -1,0 +1,10 @@
+.navbar_container {
+    display: block;
+    background-color: brown;
+    text-align: center;
+    padding: 5px;
+}
+
+.navbar_container img {
+    width: 200px;
+}
