@@ -18,8 +18,6 @@ export const ModalCards = () => {
      .then(data => setPokemon(data))
     }, [id])
 
-    console.log(pokemon)
-
     if(pokemon === null) {
         return <p>...</p>
     }

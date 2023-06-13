@@ -13,10 +13,7 @@ export default function Cards({name, image,types, id }) {
  const pokemonClass = types[0].type.name
   return (
 
-    
     <Card sx={{ maxWidth: 345 }}>
-    
-
     <CardActionArea className={styles.dec}>
 
     <Link to={`pokemon/${id}`}>
