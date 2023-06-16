@@ -24,7 +24,7 @@
 
 .modalContainer h2 {
     margin: 1.5em auto;
-    padding: .2em 2em;
+    padding: .2em 1em;
     color: #ffcb05;
     background-color: #3c5aa6;
     border-radius: 5px;
@@ -46,10 +46,6 @@
     width: 70%;
     margin: auto;
     border-bottom: 1px solid #6e6e6e;
-}
-
-.pokemonVariations{
-    border: 1px solid red;
 }
 
 

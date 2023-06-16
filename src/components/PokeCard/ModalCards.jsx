@@ -47,7 +47,7 @@ export const ModalCards = () => {
                     <p>Weight:</p> <span> {pokemon.weight}g</span>
                 </div>
                     <Box width="100%">
-                        <Divider className={styles.pokemonVariations}><h2>Variations</h2></Divider>
+                        <Divider><h2>Variations</h2></Divider>
                         <Box component="img" src={pokemon.sprites.front_female} width="30%" height="30%" />
                         <Box component="img" src={pokemon.sprites.front_shiny}  width="30%" height="30%" />
                         <Box component="img" src={pokemon.sprites.front_shiny_female} width="30%" height="30%" />
