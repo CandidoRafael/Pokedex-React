@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Project link: [https://pokedexprojectreactjs.netlify.app/]
+Project link: https://pokedexprojectreactjs.netlify.app/
 
 ## Available Scripts
 
